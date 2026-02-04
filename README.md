@@ -1,5 +1,8 @@
 # HollowSpecimenLab
 本库旨在记录、整理和分享作者对中空试样在高压氢环境下材料测试方法的思考与研究。   目标是探索并逐步发展成为一个可参考、可标准化的实验方法，为科研和工程应用提供基础工具和参考。
 
-HollowTubeMultiPressureStressPlot.m：本代码用于计算和绘制中空圆筒（或中空试样）在不同内压条件下的应力分布。
-InternalWall_TriStressAnalyzer:该 MATLAB 脚本用于计算内壁位置的三向应力状态，并根据材料在循环载荷下的真实轴向应力，反推出试验机需要施加的轴向应力控制条件
+HollowTubeMultiPressureStressPlot.m：用于计算和绘制中空圆筒（或中空试样）在不同内压条件下的应力分布。
+
+InternalWall_TriStressAnalyzer: 用于计算内壁位置循环过程中的三向应力状态，并根据材料在循环载荷下的真实轴向应力，反推出试验机需要施加的轴向应力控制条件
+
+InternalWall_StressScanSimulator：用于扫描中空圆管关键参数时模拟和可视化内壁应力、等效应力峰谷、施加轴向应力及应力波形畸变
